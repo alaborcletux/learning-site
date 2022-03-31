@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+}
+header{
+    position: relative;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    top: 0%;
+    padding: 10px;
+    height: 70px;
+ 
+   
+}
+.logo img{
+    position: absolute;
+    width: 150px;
+    margin: 18px 25px;
+}
+.nav-link ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+.nav-link ul li{
+    display: inline-block;
+}
+.nav-link ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 4px 20px;
+}
+.banner img{
+    position: relative;
+    width: 101%;
+    box-sizing: border-box;
+    z-index: -1;
+    
+}
+.main{
+    margin: 10px 70px;
+    padding: 20px;
+}
+.main h2{
+    font-size: 25px;
+    padding: 20px;
+}
+.main1{
+    margin: 0 70px;
+}
+.main1 li{
+    padding: 10px;
+}
+
+.main ol li:first-child{
+    line-height:40px ;
+}
+span{
+    margin-left:60px ;
+    color: green;
+}
+.Contant-us{
+    display: flex;
+    margin: 30px;
+
+}
+.contant-us-1{
+    margin: 30px;
+}
+.contant-us-1 h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+}
+.contant-us-1 p{
+    font-size: 13px;
+}
+.connect{
+    padding: 15px;
+    margin: 10px;
+} 
+.connect div{
+    text-align:center;
+    padding: 10px;
+    font-size: 12px;
+}
+.store{
+    display: block;
+    padding:20px ;
+    margin-left: auto;
+}
+.store img{
+    display: inline-block;
+    width: 150px;
+    margin-left: auto;
+    
+
+}
+
+.store h5{
+    font-size: 12px;
+}

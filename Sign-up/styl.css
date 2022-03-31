@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.banner{
+    position: relative;
+    width: 100;
+    background-color: rgb(197, 66, 26);
+    padding: 10px;
+}
+.logo{
+    padding: 5px;
+}
+.logo img{
+    top: 20%;
+    position: absolute;
+    width: 150px;
+    margin-left: 90px;
+}
+.nav-link{
+}
+.nav-link ul{
+    list-style-type: none;
+    padding: 10px;
+    text-align: right;
+}
+.nav-link ul li{
+    display: inline-block;
+    
+}
+.nav-link ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    margin-bottom:5%;
+}
+.background{
+    background-color: rgb(243, 241, 241);
+    padding:20px;
+}
+.profil-background{
+    margin: 10px auto;
+    width: 80%;
+    background-color: white;
+    height: 440px;
+    border-radius: 20px;
+}
+.profil-background h3{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-family:sans-serif;
+    font-weight: 10px;
+    font-size: 20px;
+}
+.profile-position{
+    display: flex;
+    padding: 10px 30px;
+}
+.profile{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    height: 270px;
+    border-radius: 12px;
+}
+.profile:hover{
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid red;
+    box-shadow: 2px 5px 8px white;
+}
+.profile img{
+    display: block;
+    margin: auto;
+    width: 90px;
+}
+.profile h2{
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    font-weight: 6px;
+}
+.profile p{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 60px;
+    line-height: 15px;
+}
+.profile a{
+    margin-left: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(5, 5, 83);
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.profile a:hover{
+    background-color: rgb(1, 1, 39);
+} 
+.main{
+    width: 100%;
+    background-color: white;
+    height: 210px;
+}
+.contact-us{
+    display: flex;
+    margin: 70px;
+    padding: 10px 30px;
+
+}
+.contact-us address{ 
+    color: gray;
+    line-height: 25px;
+}
+.contact-us address h2{
+    font-size: 20px;
+    padding: 7px;
+}
+.links li{
+    margin-left: 10px;
+    list-style-type: none;
+    padding: 9px;
+    white-space: nowrap;
+}
+.links li a{
+    color: gray;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 15px;
+}
+.copywrite{
+    margin:0  90px;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+.copywrite p{
+    padding: 30px;
+    color: gray;
+}

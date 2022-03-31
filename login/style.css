@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main img{
+    width: 70%;
+    float: right;
+    height: 100vh;
+    right: 0%;
+    top: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: fixed;
+
+}
+.login{
+    position: relative;
+    width: 30%;
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    height: 654px;
+    box-shadow: 9px 5px 4px lightgray;
+    
+
+}
+.logo{
+    padding:25px;
+}
+
+.log img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.log h2{
+    font-size: 17px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.information{
+    display: flex;
+    padding: 30px;
+}
+
+/*information class 1 that is  infor-1*/
+.infor-1{
+    padding:12px;
+    background-color:lightgray; 
+    height: 100px; 
+    border-bottom: 5px solid blue;
+}
+.infor-1 img{
+    display: block;
+    margin: auto;
+}
+.infor-1 h3{
+    font-size: 13px;
+}
+
+/*information class 1 that is  infor-2*/
+.infor-2{
+    padding:25px 20px;
+    width: 170px;
+
+}
+.infor-2 img{
+    float: left;
+    padding-right: 5px;
+    width: 30px;
+}
+.infor-2 h3{
+    font-size: 13px;
+}
+.infor-2:hover{
+    background-color:lightgray;
+    height: 2%;
+    border-bottom: 3px solid blue;
+}
+.form{
+   margin: 20px;
+}
+.form input{
+    margin: 8px ;
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 12px;
+}
+.sign-up{
+    margin-top: 30px;
+    text-align: center;
+}
+.sign-up a{
+    text-decoration: none;
+    background-color: rgb(6, 6, 150);
+    padding: 20px 70px;
+    border-radius: 40px;
+    color: white;
+}
+.sign-up a:hover{
+    background-color: rgb(2, 2, 53);
+}
+.password{
+    position: absolute;
+    text-align: center;
+    bottom: 12px;
+    margin-left: 22px;
+    line-height: 30px;
+}
+.password a{
+    text-decoration: none;
+    color: rgb(6, 6, 150);
+}
